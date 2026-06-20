@@ -1,6 +1,7 @@
 {
   "version": "v0.0.3",
   "changelog": "mejora rammstein",
-  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/tag/Ulises_Uzcategui-v0.0.3",
-  "published_at": "2026-06-19"
+  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/download/Ulises_Uzcategui-v0.0.3/Odyssea_Ulises_Uzcategui_v0.0.3_Setup.exe",
+  "published_at": "2026-06-19",
+  "url_exe": "https://github.com/odysseasystem-code/odyssea-releases/releases/download/Ulises_Uzcategui-v0.0.3/Odyssea_Ulises_Uzcategui_v0.0.3_Setup.exe"
 }
