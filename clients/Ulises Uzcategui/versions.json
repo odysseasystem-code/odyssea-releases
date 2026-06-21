@@ -1,5 +1,5 @@
 {
-  "current": "v0.0.5",
+  "current": "v0.0.6",
   "history": [
     {
       "version": "v0.0.3",
@@ -21,6 +21,13 @@
       "type": "patch",
       "changelog": "veamos si funciona en distribucion la actualizacion",
       "tag": "Ulises_Uzcategui-v0.0.5"
+    },
+    {
+      "version": "v0.0.6",
+      "date": "21/06/2026",
+      "type": "patch",
+      "changelog": "a ver si esta si ",
+      "tag": "Ulises_Uzcategui-v0.0.6"
     }
   ]
 }
