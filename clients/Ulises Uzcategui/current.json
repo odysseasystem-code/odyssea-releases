@@ -1,7 +1,6 @@
 {
-  "version": "v0.0.3",
-  "url_exe": null,
-  "hash_sha256": "",
-  "changelog": "mejora rammstein",
-  "published_at": "2026-06-20"
+  "version": "v0.0.4",
+  "changelog": "vamos a ver si sirve",
+  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/453748116",
+  "published_at": "2026-06-21"
 }
