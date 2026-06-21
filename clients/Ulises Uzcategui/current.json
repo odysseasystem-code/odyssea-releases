@@ -1,7 +1,7 @@
 {
-  "version": "v0.0.7",
-  "changelog": "Actualizacion de mantenimiento",
-  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/453943780",
-  "published_at": "2026-06-21",
-  "hash_sha256": "28A80ED0CC03CCC075AE30FDE144E49A4A04B1120ECDB679E5690E3E24C9B5A7"
+  "version": "v0.0.0",
+  "url_exe": null,
+  "hash_sha256": "",
+  "changelog": "Versión base inicializada en v0.0.0",
+  "published_at": "2026-06-21"
 }
