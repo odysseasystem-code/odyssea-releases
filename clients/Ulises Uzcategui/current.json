@@ -1,7 +1,7 @@
 {
   "version": "v0.0.5",
   "changelog": "veamos si funciona en distribucion la actualizacion",
-  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/download/Ulises_Uzcategui-v0.0.5/Odyssea_Ulises_Uzcategui_v0.0.5_Setup.exe",
+  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/453755471",
   "hash_sha256": "",
   "published_at": "2026-06-21"
 }
