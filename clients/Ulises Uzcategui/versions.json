@@ -1,5 +1,5 @@
 {
-  "current": "v0.0.2",
+  "current": "v0.0.3",
   "history": [
     {
       "version": "v0.0.1",
@@ -14,6 +14,13 @@
       "type": "patch",
       "changelog": "la prueba definitiva",
       "tag": "Ulises_Uzcategui-v0.0.2"
+    },
+    {
+      "version": "v0.0.3",
+      "date": "21/06/2026",
+      "type": "patch",
+      "changelog": "aja fino",
+      "tag": "Ulises_Uzcategui-v0.0.3"
     }
   ]
 }
