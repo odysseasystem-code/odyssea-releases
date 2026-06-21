@@ -1,7 +1,7 @@
 {
   "version": "v0.0.5",
   "changelog": "veamos si funciona en distribucion la actualizacion",
-  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/453786764",
-  "hash_sha256": "A39CFFDA2F7AB5A92AFE40C48B9F295644E481102E5C60F5D513B6B170D4C731",
+  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/453803802",
+  "hash_sha256": "541C1E0575569B42A8E8E41367072404188AD69EC17C95451E5900F0B2D28F3B",
   "published_at": "2026-06-21"
 }
