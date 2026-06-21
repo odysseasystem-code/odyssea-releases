@@ -1,4 +1,12 @@
 {
-  "current": "v0.0.0",
-  "history": []
+  "current": "v0.0.1",
+  "history": [
+    {
+      "version": "v0.0.1",
+      "date": "21/06/2026",
+      "type": "patch",
+      "changelog": "Actualizacion de mantenimiento",
+      "tag": "Ulises_Uzcategui-v0.0.1"
+    }
+  ]
 }
