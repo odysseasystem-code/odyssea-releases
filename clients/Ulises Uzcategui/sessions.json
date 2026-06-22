@@ -9,5 +9,16 @@
     "date_tampering_detected": false,
     "violation_attempt": false,
     "revoked": false
+  },
+  "98:CD:58:51:69:5C": {
+    "workstation": "uuzcategui",
+    "ip_local": "192.168.68.250",
+    "ip_publica": "45.198.56.38",
+    "user": "Usuario",
+    "heartbeat": "2025-06-22T19:58:37.947915",
+    "os_version": "Windows 11",
+    "date_tampering_detected": true,
+    "violation_attempt": false,
+    "revoked": false
   }
 }
