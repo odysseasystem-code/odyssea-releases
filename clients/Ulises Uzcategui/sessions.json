@@ -1,0 +1,13 @@
+{
+  "CF:D5:23:32:6E:91": {
+    "workstation": "uuzcategui",
+    "ip_local": "192.168.68.250",
+    "ip_publica": "45.198.56.38",
+    "user": "Desconocido",
+    "heartbeat": "2026-06-22T13:42:20.473610",
+    "os_version": "Windows 11",
+    "date_tampering_detected": false,
+    "violation_attempt": false,
+    "revoked": false
+  }
+}
