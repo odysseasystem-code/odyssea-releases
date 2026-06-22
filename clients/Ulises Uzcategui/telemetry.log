@@ -1,115 +1,762 @@
 ==================================================
  FECHA: 2026-06-22
 ==================================================
-[12:25:21] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[14:14:10] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
 ----------------------------------------
-[12:25:21] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[14:13:02] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
 ----------------------------------------
-[12:25:16] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[14:11:54] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:10:50] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:09:46] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:08:41] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:07:37] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:06:34] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:05:30] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:04:26] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:03:22] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:02:18] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:01:13] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[14:00:09] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:59:05] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:58:01] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:56:57] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:55:53] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:54:49] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:53:44] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:53:44] [Código: SES-002] - Error al registrar sesión: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 50, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:53:44] [Código: LIC-005] - Error al verificar estaciones: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 102, in check_stations
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          SELECT COUNT(*) FROM system_active_sessions
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      """)
+      ^^^^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:28:05] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:27:00] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:26:59] [Código: SES-002] - Error al registrar sesión: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 50, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[13:26:59] [Código: LIC-005] - Error al verificar estaciones: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 102, in check_stations
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          SELECT COUNT(*) FROM system_active_sessions
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      """)
+      ^^^^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
 ----------------------------------------
 
 ==================================================
  FECHA: 2026-06-21
 ==================================================
-[17:34:18] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[17:11:09] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
 ----------------------------------------
-[17:34:18] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[17:11:09] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
 ----------------------------------------
-[17:34:14] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[17:11:04] [Código: UPD-010] - Boveda respaldada antes de actualizar
 ----------------------------------------
-[17:25:54] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[17:25:54] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[17:25:33] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[17:13:19] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[17:13:19] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[17:13:15] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[16:38:20] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[16:38:20] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[16:38:16] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[16:29:26] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[16:29:26] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[16:29:22] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[16:28:23] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[16:28:23] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[16:28:19] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[16:17:43] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[16:17:43] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[16:17:38] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[16:04:39] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[16:04:39] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[16:04:35] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[15:50:58] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[15:50:58] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[15:50:53] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[15:33:12] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[15:33:12] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[15:32:54] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[15:14:04] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[15:14:04] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[15:13:59] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:55:02] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[14:55:02] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[14:54:57] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:47:11] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:47:00] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:39:03] [Código: UPD-UI-ERR] - Error en _setup_restart_ui: name 'ft' is not defined
+[10:38:09] [Código: SES-003] - Error en heartbeat: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
 Traceback:
   Traceback (most recent call last):
-    File "core\updater\updater.py", line 511, in _setup_restart_ui
-  NameError: name 'ft' is not defined
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 55, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
 ----------------------------------------
-[14:39:03] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[14:38:59] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:30:28] [Código: UPD-UI-ERR] - Error en _setup_restart_ui: name 'Colors' is not defined
+[10:38:09] [Código: SES-002] - Error al registrar sesión: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
 Traceback:
   Traceback (most recent call last):
-    File "core\updater\updater.py", line 509, in _setup_restart_ui
-  NameError: name 'Colors' is not defined
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 38, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
 ----------------------------------------
-[14:30:28] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[10:38:09] [Código: SES-001] - Error al crear tabla sesiones: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 30, in _create_table
+      cur.execute(self.TABLE_SQL)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
 ----------------------------------------
-[14:30:23] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[10:38:09] [Código: LIC-005] - Error al verificar estaciones: no existe la relación «system_active_sessions»
+LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                             ^
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 63, in check_stations
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          SELECT COUNT(*) FROM system_active_sessions
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      """)
+      ^^^^
+  psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
+  LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                               ^
 ----------------------------------------
-[14:15:27] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[10:29:51] [Código: UPD-010] - Boveda respaldada antes de actualizar
 ----------------------------------------
-[14:13:05] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[10:29:39] [Código: SES-003] - Error en heartbeat: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 55, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
 ----------------------------------------
-[12:59:53] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[10:29:39] [Código: SES-002] - Error al registrar sesión: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 38, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[10:29:39] [Código: SES-001] - Error al crear tabla sesiones: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 30, in _create_table
+      cur.execute(self.TABLE_SQL)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[10:29:39] [Código: LIC-005] - Error al verificar estaciones: no existe la relación «system_active_sessions»
+LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                             ^
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 63, in check_stations
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          SELECT COUNT(*) FROM system_active_sessions
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      """)
+      ^^^^
+  psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
+  LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                               ^
+----------------------------------------
+[10:27:30] [Código: SES-003] - Error en heartbeat: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 55, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[10:27:30] [Código: SES-002] - Error al registrar sesión: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 38, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[10:27:30] [Código: SES-001] - Error al crear tabla sesiones: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 30, in _create_table
+      cur.execute(self.TABLE_SQL)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[10:27:30] [Código: LIC-005] - Error al verificar estaciones: no existe la relación «system_active_sessions»
+LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                             ^
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 63, in check_stations
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          SELECT COUNT(*) FROM system_active_sessions
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      """)
+      ^^^^
+  psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
+  LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                               ^
+----------------------------------------
+
+==================================================
+ FECHA: 2026-06-20
+==================================================
+[17:32:34] [Código: SES-003] - Error en heartbeat: 'NoneType' object has no attribute 'execute'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 55, in heartbeat
+      cur.execute(
+      ^^^^^^^^^^^
+  AttributeError: 'NoneType' object has no attribute 'execute'
+----------------------------------------
+[17:31:34] [Código: SES-003] - Error en heartbeat: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 55, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[17:31:34] [Código: SES-002] - Error al registrar sesión: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 38, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[17:31:34] [Código: SES-001] - Error al crear tabla sesiones: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 30, in _create_table
+      cur.execute(self.TABLE_SQL)
+      ~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
+----------------------------------------
+[17:31:34] [Código: LIC-005] - Error al verificar estaciones: no existe la relación «system_active_sessions»
+LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                             ^
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 63, in check_stations
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          SELECT COUNT(*) FROM system_active_sessions
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      """)
+      ^^^^
+  psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
+  LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
+                                               ^
+----------------------------------------
+
+==================================================
+ FECHA: 2025-06-22
+==================================================
+[19:58:36] [Código: SES-002] - Error al registrar sesión: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 54, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
+[19:47:23] [Código: SES-005] - Error de telemetria en GitHub: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1081)
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 156, in _connect
+      stream = stream.start_tls(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 154, in start_tls
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1081)
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 129, in _sync_github_session
+      r = httpx.get(url, headers=headers, timeout=5)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate is not yet valid (_ssl.c:1081)
+----------------------------------------
+[19:47:22] [Código: SES-002] - Error al registrar sesión: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 50, in _register
+      cur.execute("""
+      ~~~~~~~~~~~^^^^
+          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          VALUES (%s, %s, %s)
+          ^^^^^^^^^^^^^^^^^^^
+      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
 ----------------------------------------
