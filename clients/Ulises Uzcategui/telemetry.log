@@ -1,6 +1,21 @@
 ==================================================
  FECHA: 2026-06-22
 ==================================================
+[20:24:10] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 86, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
 [20:23:03] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
 
 Traceback:
@@ -689,20 +704,5 @@ Traceback:
           ^^^^^^^^^^^^^^^^^^^
       """, (str(self.session_id), socket.gethostname(), self._get_ip()))
       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
-----------------------------------------
-[13:26:59] [Código: LIC-005] - Error al verificar estaciones: permiso denegado a la tabla system_active_sessions
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 102, in check_stations
-      cur.execute("""
-      ~~~~~~~~~~~^^^^
-          SELECT COUNT(*) FROM system_active_sessions
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      """)
-      ^^^^
   psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
 ----------------------------------------
