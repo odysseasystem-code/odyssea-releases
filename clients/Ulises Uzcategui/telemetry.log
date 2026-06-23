@@ -1,6 +1,21 @@
 ==================================================
  FECHA: 2026-06-22
 ==================================================
+[20:04:42] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 86, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
 [20:03:34] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
 
 Traceback:
@@ -636,16 +651,4 @@ Traceback:
   psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
   LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
                                                ^
-----------------------------------------
-
-==================================================
- FECHA: 2026-06-20
-==================================================
-[17:32:34] [Código: SES-003] - Error en heartbeat: 'NoneType' object has no attribute 'execute'
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 55, in heartbeat
-      cur.execute(
-      ^^^^^^^^^^^
-  AttributeError: 'NoneType' object has no attribute 'execute'
 ----------------------------------------
