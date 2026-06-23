@@ -9,17 +9,5 @@
     "date_tampering_detected": false,
     "violation_attempt": false,
     "revoked": true
-  },
-  "98:CD:58:51:69:5C": {
-    "session_id": "6d2d3d74-8acb-45ed-9f60-8a20eee5d69d",
-    "workstation": "uuzcategui",
-    "ip_local": "192.168.68.250",
-    "ip_publica": "45.198.56.38",
-    "user": "Desconocido",
-    "heartbeat": "2025-06-22T21:11:40.055165",
-    "os_version": "Windows 11",
-    "date_tampering_detected": false,
-    "violation_attempt": false,
-    "revoked": false
   }
 }
