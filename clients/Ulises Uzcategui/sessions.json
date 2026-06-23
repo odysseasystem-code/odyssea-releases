@@ -11,14 +11,14 @@
     "revoked": true
   },
   "98:CD:58:51:69:5C": {
-    "session_id": "d3da7756-75d9-4364-ba70-13d863fda1dc",
+    "session_id": "f0f343ef-55a9-4904-8cea-12ad722bfbad",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.38",
     "user": "Usuario",
-    "heartbeat": "2026-06-22T20:42:54.857428",
+    "heartbeat": "2025-06-22T20:44:09.161018",
     "os_version": "Windows 11",
-    "date_tampering_detected": false,
+    "date_tampering_detected": true,
     "violation_attempt": false,
     "revoked": false
   }
