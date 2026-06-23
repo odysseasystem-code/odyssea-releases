@@ -1,6 +1,21 @@
 ==================================================
  FECHA: 2026-06-22
 ==================================================
+[20:06:58] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 86, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
 [20:05:50] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
 
 Traceback:
@@ -637,14 +652,5 @@ Traceback:
           ^^^^^^^^^^^^^^^^^^^
       """, (str(self.session_id), socket.gethostname(), self._get_ip()))
       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
-----------------------------------------
-[10:27:30] [Código: SES-001] - Error al crear tabla sesiones: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 30, in _create_table
-      cur.execute(self.TABLE_SQL)
-      ~~~~~~~~~~~^^^^^^^^^^^^^^^^
   psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
 ----------------------------------------
