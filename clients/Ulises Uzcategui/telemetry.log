@@ -1,6 +1,21 @@
 ==================================================
  FECHA: 2026-06-22
 ==================================================
+[20:37:27] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 86, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
 [20:36:23] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
 
 Traceback:
@@ -677,21 +692,6 @@ Traceback:
   psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
 ----------------------------------------
 [14:01:13] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 82, in heartbeat
-      cur.execute(
-      ~~~~~~~~~~~^
-          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-          (str(self.session_id),)
-          ^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
-----------------------------------------
-[14:00:09] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
 
 Traceback:
   Traceback (most recent call last):
