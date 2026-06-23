@@ -1,6 +1,21 @@
 ==================================================
  FECHA: 2026-06-22
 ==================================================
+[20:08:06] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
+
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 86, in heartbeat
+      cur.execute(
+      ~~~~~~~~~~~^
+          "UPDATE system_active_sessions SET last_heartbeat = NOW() WHERE session_id = %s",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          (str(self.session_id),)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+  psycopg2.errors.InsufficientPrivilege: permiso denegado a la tabla system_active_sessions
+----------------------------------------
 [20:06:58] [Código: SES-003] - Error en heartbeat: permiso denegado a la tabla system_active_sessions
 
 Traceback:
@@ -637,20 +652,5 @@ Traceback:
           ^^^^^^^^^^^^^^^^^^^^^^^
       )
       ^
-  psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
-----------------------------------------
-[10:27:30] [Código: SES-002] - Error al registrar sesión: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 38, in _register
-      cur.execute("""
-      ~~~~~~~~~~~^^^^
-          INSERT INTO system_active_sessions (session_id, workstation_name, ip_address)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-          VALUES (%s, %s, %s)
-          ^^^^^^^^^^^^^^^^^^^
-      """, (str(self.session_id), socket.gethostname(), self._get_ip()))
-      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   psycopg2.errors.InFailedSqlTransaction: transacción abortada, las órdenes serán ignoradas hasta el fin de bloque de transacción
 ----------------------------------------
