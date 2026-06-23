@@ -8,7 +8,7 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   },
   "98:CD:58:51:69:5C": {
     "workstation": "uuzcategui",
