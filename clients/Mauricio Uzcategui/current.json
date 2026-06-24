@@ -1,6 +1,7 @@
 {
-  "version": "v0.0.3",
-  "changelog": "old school",
-  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/tag/Mauricio_Uzcategui-v0.0.3",
-  "published_at": "2026-06-18"
+  "version": "v0.0.2",
+  "url_exe": null,
+  "hash_sha256": "",
+  "changelog": "prueba de que esta bien cool",
+  "published_at": "2026-06-24"
 }
