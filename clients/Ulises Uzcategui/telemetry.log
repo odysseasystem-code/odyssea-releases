@@ -1,4 +1,14 @@
 ==================================================
+ FECHA: 2026-06-24
+==================================================
+[14:46:59] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[14:46:59] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[14:46:55] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+
+==================================================
  FECHA: 2026-06-22
 ==================================================
 [12:25:21] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
@@ -106,10 +116,4 @@ Traceback:
 [14:30:28] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
 ----------------------------------------
 [14:30:23] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:15:27] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:13:05] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[12:59:53] [Código: UPD-010] - Boveda respaldada antes de actualizar
 ----------------------------------------
