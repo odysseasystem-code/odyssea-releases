@@ -1,6 +1,6 @@
 {
-  "version": "v0.0.4",
-  "changelog": "monitor de github",
-  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/454754888",
-  "published_at": "2026-06-22"
+  "version": "v0.0.5",
+  "changelog": "Cambios en forma de licenciamiento",
+  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/456757624",
+  "published_at": "2026-06-24"
 }
