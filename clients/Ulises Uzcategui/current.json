@@ -1,6 +1,6 @@
 {
-  "version": "v0.0.7",
-  "changelog": "freddy mercuri",
-  "installer_url": "https://api.github.com/repos/odysseasystem-code/odyssea-releases/releases/assets/456811699",
+  "version": "v0.0.8",
+  "changelog": "Actualizacion de mantenimiento",
+  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/download/Ulises_Uzcategui-v0.0.8/Odyssea_Ulises_Uzcategui_v0.0.8_Setup.exe",
   "published_at": "2026-06-24"
 }
