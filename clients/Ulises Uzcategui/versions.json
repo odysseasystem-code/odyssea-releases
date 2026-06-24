@@ -1,5 +1,5 @@
 {
-  "current": "v0.0.4",
+  "current": "v0.0.5",
   "history": [
     {
       "version": "v0.0.1",
@@ -28,6 +28,13 @@
       "type": "patch",
       "changelog": "monitor de github",
       "tag": "Ulises_Uzcategui-v0.0.4"
+    },
+    {
+      "version": "v0.0.5",
+      "date": "24/06/2026",
+      "type": "patch",
+      "changelog": "Cambios en forma de licenciamiento",
+      "tag": "Ulises_Uzcategui-v0.0.5"
     }
   ]
 }
