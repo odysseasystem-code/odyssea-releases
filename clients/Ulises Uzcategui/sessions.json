@@ -35,12 +35,12 @@
     "revoked": false
   },
   "CD:38:EC:09:81:94": {
-    "session_id": "d0345626-03c0-45f7-99a3-3d4d6ae12900",
+    "session_id": "c96b802e-f32f-4ce1-8566-baeb84435db3",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.38",
     "user": "Usuario",
-    "heartbeat": "2026-06-24T14:46:48.164821",
+    "heartbeat": "2026-06-24T14:47:34.152216",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
