@@ -32,7 +32,7 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   },
   "CD:38:EC:09:81:94": {
     "session_id": "b33b80ca-7131-43fd-8c80-6663653852d8",
