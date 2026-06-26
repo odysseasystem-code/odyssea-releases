@@ -44,7 +44,7 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   },
   "A1:B3:64:1A:90:51": {
     "session_id": "24511bdd-5aed-4bae-a825-8e98756e4da6",
