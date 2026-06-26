@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-26
 ==================================================
+[15:05:26] [Código: UPD-SAME] - Versión remota 0.0.3 <= local 0.0.3, sin actualización
+----------------------------------------
 [14:52:20] [Código: UPD-SAME] - Versión remota 0.0.3 <= local 0.0.3, sin actualización
 ----------------------------------------
 [14:52:09] [Código: LIC-010] - Timeout al conectar con Supabase (upsert_heartbeat)
