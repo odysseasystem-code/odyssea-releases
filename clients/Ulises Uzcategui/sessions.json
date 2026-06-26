@@ -59,15 +59,15 @@
     "revoked": true
   },
   "DF:41:73:50:2E:59": {
-    "session_id": "b16dcb12-33d2-47e6-8957-4007f353061f",
+    "session_id": "ed94584c-fec7-408f-aab6-991b2a6013de",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.1",
     "user": "Usuario",
-    "heartbeat": "2026-06-26T09:43:10.079011",
+    "heartbeat": "2026-06-26T13:39:24.035429",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": true
+    "revoked": false
   }
 }
