@@ -1,6 +1,7 @@
 {
   "version": "v0.0.13",
+  "url_exe": null,
+  "hash_sha256": "",
   "changelog": "Actualizacion de mantenimiento",
-  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/download/Ulises_Uzcategui-v0.0.13/Odyssea_Ulises_Uzcategui_v0.0.13_Setup.exe",
   "published_at": "2026-06-29"
 }
