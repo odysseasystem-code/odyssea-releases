@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
+[14:38:33] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
 [14:34:47] [Código: SES-005] - Error de telemetria en GitHub: [Errno 11001] getaddrinfo failed
 Traceback:
   Traceback (most recent call last):
@@ -743,10 +745,4 @@ Traceback:
 [13:18:28] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
 ----------------------------------------
 [13:17:58] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[13:17:25] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
-Traceback:
-  Traceback (most recent call last):
-    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
-  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
