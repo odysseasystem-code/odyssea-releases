@@ -71,15 +71,15 @@
     "revoked": true
   },
   "EE:68:5E:60:F3:96": {
-    "session_id": "fc07fc3a-80eb-4788-8d35-97c4600cd89b",
+    "session_id": "9e091fd9-9e08-47fb-8c2e-0c4b31ff60db",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.27",
     "user": "Usuario",
-    "heartbeat": "2026-06-29T12:22:54.586279",
+    "heartbeat": "2026-06-29T12:36:26.984335",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": true
+    "revoked": false
   }
 }
