@@ -1,15 +1,243 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
-[12:43:48] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+[13:18:28] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
 ----------------------------------------
-[12:36:55] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+[13:18:28] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
 ----------------------------------------
-[10:48:35] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[13:17:58] [Código: UPD-010] - Boveda respaldada antes de actualizar
 ----------------------------------------
-[10:38:52] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[13:17:25] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
-[10:25:40] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[13:17:21] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
-[10:06:51] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[13:17:16] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[13:17:02] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[13:16:58] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:57:52] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:53:17] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+----------------------------------------
+[12:52:49] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:52:45] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:52:40] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:52:31] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:52:27] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:52:02] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[12:52:02] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[12:51:52] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+[12:51:19] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:51:15] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:51:11] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:51:02] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:50:59] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:19:54] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:15:21] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+----------------------------------------
+[12:14:52] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:14:51] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:14:47] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:14:37] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:14:35] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:14:18] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[12:14:18] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[12:14:13] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+[12:13:41] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:13:39] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:13:37] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:13:29] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[12:13:26] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:54:36] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:50:02] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
+----------------------------------------
+[11:49:34] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:49:32] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:49:29] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:49:22] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:49:21] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:46:05] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:42:53] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
+----------------------------------------
+[11:42:40] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
+----------------------------------------
+[11:41:32] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
+----------------------------------------
+[11:41:03] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
