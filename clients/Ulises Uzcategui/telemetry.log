@@ -1,21 +1,752 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
-[12:50:37] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+[14:34:47] [Código: SES-005] - Error de telemetria en GitHub: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\session_manager.py", line 254, in _sync_github_session
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
 ----------------------------------------
-[12:50:25] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+[14:34:46] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
-[12:50:13] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+[14:34:46] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 302, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
 ----------------------------------------
-[12:43:48] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+[14:34:45] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
 ----------------------------------------
-[12:36:55] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+[14:34:42] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
-[10:48:35] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[14:34:42] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 302, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
 ----------------------------------------
-[10:38:52] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[14:34:41] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
 ----------------------------------------
-[10:25:40] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[14:34:18] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
-[10:06:51] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+[14:34:17] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 302, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:34:17] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:34:15] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:34:15] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 302, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:34:13] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:33:32] [Código: LIC-OFFLINE-PENDING] - Sin conexión a internet y sin caché local de licencia. Activación online obligatoria.
+----------------------------------------
+[14:33:32] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:33:32] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 302, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:33:31] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:33:30] [Código: LIC-OFFLINE-PENDING] - Sin conexión a internet y sin caché local de licencia. Activación online obligatoria.
+----------------------------------------
+[14:33:30] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:33:29] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 302, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:33:29] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:24:42] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[14:23:13] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[14:23:13] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[14:21:56] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+[14:10:40] [Código: UPD-SAME] - Versión remota 0.0.15 <= local 0.0.15, sin actualización
+----------------------------------------
+[14:01:12] [Código: LIC-OFFLINE-PENDING] - Sin conexión a internet y sin caché local de licencia. Activación online obligatoria.
+----------------------------------------
+[14:01:12] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:01:12] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 312, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:01:11] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:01:09] [Código: LIC-OFFLINE-PENDING] - Sin conexión a internet y sin caché local de licencia. Activación online obligatoria.
+----------------------------------------
+[14:01:09] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:01:09] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 312, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:01:08] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:00:43] [Código: LIC-OFFLINE-PENDING] - Sin conexión a internet y sin caché local de licencia. Activación online obligatoria.
+----------------------------------------
+[14:00:43] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:00:43] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\license_checker.py", line 312, in _check_with_github
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:00:42] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:00:41] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 64, in _call_rpc
+    File "httpx\_api.py", line 304, in post
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:00:40] [Código: SES-005] - Error de telemetria en GitHub: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    File "httpx\_transports\default.py", line 250, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 256, in handle_request
+    File "httpcore\_sync\connection_pool.py", line 236, in handle_request
+    File "httpcore\_sync\connection.py", line 101, in handle_request
+    File "httpcore\_sync\connection.py", line 78, in handle_request
+    File "httpcore\_sync\connection.py", line 124, in _connect
+    File "httpcore\_backends\sync.py", line 207, in connect_tcp
+    File "contextlib.py", line 162, in __exit__
+    File "httpcore\_exceptions.py", line 14, in map_exceptions
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\updater\session_manager.py", line 254, in _sync_github_session
+    File "httpx\_api.py", line 195, in get
+    File "httpx\_api.py", line 109, in request
+    File "httpx\_client.py", line 825, in request
+    File "httpx\_client.py", line 914, in send
+    File "httpx\_client.py", line 942, in _send_handling_auth
+    File "httpx\_client.py", line 979, in _send_handling_redirects
+    File "httpx\_client.py", line 1014, in _send_single_request
+    File "httpx\_transports\default.py", line 249, in handle_request
+    File "contextlib.py", line 162, in __exit__
+    File "httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[13:56:01] [Código: UPD-SAME] - Versión remota 0.0.15 <= local 0.0.15, sin actualización
+----------------------------------------
+[13:54:46] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[13:54:46] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[13:54:41] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+[13:33:21] [Código: UPD-SAME] - Versión remota 0.0.14 <= local 0.0.14, sin actualización
+----------------------------------------
+[13:26:32] [Código: UPD-SAME] - Versión remota 0.0.14 <= local 0.0.14, sin actualización
+----------------------------------------
+[13:18:28] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[13:18:28] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[13:17:58] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+[13:17:25] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
