@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
+[14:10:40] [Código: UPD-SAME] - Versión remota 0.0.15 <= local 0.0.15, sin actualización
+----------------------------------------
 [14:01:12] [Código: LIC-OFFLINE-PENDING] - Sin conexión a internet y sin caché local de licencia. Activación online obligatoria.
 ----------------------------------------
 [14:01:12] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
@@ -422,12 +424,6 @@ Traceback:
   AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
 [12:14:37] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
-Traceback:
-  Traceback (most recent call last):
-    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
-  AttributeError: 'str' object has no attribute 'get'
-----------------------------------------
-[12:14:35] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
 Traceback:
   Traceback (most recent call last):
     File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
