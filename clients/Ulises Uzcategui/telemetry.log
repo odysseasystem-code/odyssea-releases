@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
+[18:33:25] [Código: UPD-SAME] - Versión remota 0.0.18 <= local 0.0.18, sin actualización
+----------------------------------------
 [18:32:41] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
 ----------------------------------------
 [18:32:41] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
