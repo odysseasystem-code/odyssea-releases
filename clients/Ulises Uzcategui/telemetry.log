@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
+[13:33:21] [Código: UPD-SAME] - Versión remota 0.0.14 <= local 0.0.14, sin actualización
+----------------------------------------
 [13:26:32] [Código: UPD-SAME] - Versión remota 0.0.14 <= local 0.0.14, sin actualización
 ----------------------------------------
 [13:18:28] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
@@ -234,6 +236,4 @@ Traceback:
 [11:42:53] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
 ----------------------------------------
 [11:42:40] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
-----------------------------------------
-[11:41:32] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
 ----------------------------------------
