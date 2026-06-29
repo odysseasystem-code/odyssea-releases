@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
+[13:26:32] [Código: UPD-SAME] - Versión remota 0.0.14 <= local 0.0.14, sin actualización
+----------------------------------------
 [13:18:28] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
 ----------------------------------------
 [13:18:28] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
@@ -234,10 +236,4 @@ Traceback:
 [11:42:40] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
 ----------------------------------------
 [11:41:32] [Código: UPD-SAME] - Versión remota 0.0.11 <= local 0.0.11, sin actualización
-----------------------------------------
-[11:41:03] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
-Traceback:
-  Traceback (most recent call last):
-    File "core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
-  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
