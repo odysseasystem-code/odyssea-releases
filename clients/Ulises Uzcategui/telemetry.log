@@ -1,6 +1,12 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
+[16:07:03] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[16:07:03] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[16:06:58] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
 [15:07:05] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
 [14:51:54] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
