@@ -95,12 +95,12 @@
     "revoked": false
   },
   "AE:52:EF:5B:C5:C7": {
-    "session_id": "a4886a77-e66f-4797-ae5d-0b912f352256",
+    "session_id": "fb2ee7ba-106c-4def-a9e0-6749464567c6",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.27",
     "user": "Usuario",
-    "heartbeat": "2026-06-30T13:53:27.406142",
+    "heartbeat": "2026-06-30T13:58:06.812435",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
