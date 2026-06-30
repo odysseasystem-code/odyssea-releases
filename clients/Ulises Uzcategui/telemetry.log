@@ -1,25 +1,1156 @@
 ==================================================
  FECHA: 2026-06-29
 ==================================================
-[18:33:25] [Código: UPD-SAME] - Versión remota 0.0.18 <= local 0.0.18, sin actualización
+[16:33:06] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
 ----------------------------------------
-[18:32:41] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[16:32:48] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
 ----------------------------------------
-[18:32:41] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[16:26:30] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
 ----------------------------------------
-[18:32:37] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[16:25:59] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
-[16:20:31] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
+[16:22:19] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
 ----------------------------------------
-[16:08:00] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
+[15:33:46] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
-[16:07:03] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[15:28:41] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
-[16:07:03] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[15:18:33] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
-[16:06:58] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[15:18:21] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
-[15:07:05] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+[15:04:28] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
-[14:51:54] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+[15:04:24] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[15:04:17] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[14:58:14] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[14:56:50] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[14:56:07] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[14:36:20] [Código: UPD-REQ] - Error de conexión a api.github.com: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:36:20] [Código: UPD-FALLBACK] - raw.githubusercontent.com falló, intentando GitHub API...
+----------------------------------------
+[14:36:19] [Código: UPD-REQ] - Error de conexión a raw.githubusercontent.com: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:51] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:35:51] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 302, in _check_with_github
+      resp = httpx.get(api_url, headers=headers, timeout=10, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:50] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
+      resp = httpx.post(
+          f"{url}/rest/v1/rpc/{function}",
+      ...<6 lines>...
+          timeout=10,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+      return request(
+          "POST",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:50] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
+      resp = httpx.post(
+          f"{url}/rest/v1/rpc/{function}",
+      ...<6 lines>...
+          timeout=10,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+      return request(
+          "POST",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:50] [Código: SES-005] - Error de telemetria en GitHub: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 254, in _sync_github_session
+      r = httpx.get(url, headers=headers, timeout=5, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:50] [Código: SES-005] - Error de telemetria en GitHub: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 254, in _sync_github_session
+      r = httpx.get(url, headers=headers, timeout=5, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:48] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:35:48] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 302, in _check_with_github
+      resp = httpx.get(api_url, headers=headers, timeout=10, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:47] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
+      resp = httpx.post(
+          f"{url}/rest/v1/rpc/{function}",
+      ...<6 lines>...
+          timeout=10,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+      return request(
+          "POST",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:44] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:35:44] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 302, in _check_with_github
+      resp = httpx.get(api_url, headers=headers, timeout=10, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:43] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
+      resp = httpx.post(
+          f"{url}/rest/v1/rpc/{function}",
+      ...<6 lines>...
+          timeout=10,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+      return request(
+          "POST",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:21] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:35:21] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 302, in _check_with_github
+      resp = httpx.get(api_url, headers=headers, timeout=10, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:20] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
+      resp = httpx.post(
+          f"{url}/rest/v1/rpc/{function}",
+      ...<6 lines>...
+          timeout=10,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+      return request(
+          "POST",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:18] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[14:35:18] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 302, in _check_with_github
+      resp = httpx.get(api_url, headers=headers, timeout=10, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
+      return request(
+          "GET",
+      ...<9 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:35:17] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
+      stream = self._connect(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
+      stream = self._network_backend.connect_tcp(**kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
+      resp = httpx.post(
+          f"{url}/rest/v1/rpc/{function}",
+      ...<6 lines>...
+          timeout=10,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
+      return request(
+          "POST",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ConnectError: [Errno 11001] getaddrinfo failed
+----------------------------------------
+[14:28:34] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
+----------------------------------------
+[12:50:37] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+----------------------------------------
+[12:50:25] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+----------------------------------------
+[12:50:13] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
+----------------------------------------
+[12:43:48] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+----------------------------------------
+[12:36:55] [Código: UPD-SAME] - Versión remota 0.0.12 <= local 0.0.12, sin actualización
+----------------------------------------
+[10:48:35] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+----------------------------------------
+[10:38:52] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+----------------------------------------
+[10:25:40] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
+----------------------------------------
+[10:06:51] [Código: UPD-SAME] - Versión remota 0.0.9 <= local 0.0.9, sin actualización
 ----------------------------------------
