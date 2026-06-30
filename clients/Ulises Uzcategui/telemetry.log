@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-30
 ==================================================
+[19:39:30] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
+----------------------------------------
 [19:34:54] [Código: LIC-CONCURRENCY-OFFLINE-ERROR] - Error crítico al verificar estaciones locales: no existe la relación «system_active_sessions»
 LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
                                              ^
@@ -1302,6 +1304,4 @@ Traceback:
 [14:28:34] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
 [12:50:37] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
-----------------------------------------
-[12:50:25] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
 ----------------------------------------
