@@ -1,6 +1,119 @@
 ==================================================
  FECHA: 2026-06-30
 ==================================================
+[20:30:01] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
+      cls._pool = psycopg2.pool.ThreadedConnectionPool(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+          1, 25, # De 1 a 25 conexiones dinámicas
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      ...<6 lines>...
+          options="-c statement_timeout=60000" # 60s timeout para consultas largas
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
+      AbstractConnectionPool.__init__(
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+          self, minconn, maxconn, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+      self._connect()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+      conn = psycopg2.connect(*self._args, **self._kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
+      DatabaseManager.initialize()
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
+      raise RuntimeError(f"Error de enlace DB: {e}") from e
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[20:29:58] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
+      cls._pool = psycopg2.pool.ThreadedConnectionPool(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+          1, 25, # De 1 a 25 conexiones dinámicas
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      ...<6 lines>...
+          options="-c statement_timeout=60000" # 60s timeout para consultas largas
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
+      AbstractConnectionPool.__init__(
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+          self, minconn, maxconn, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+      self._connect()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+      conn = psycopg2.connect(*self._args, **self._kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
+      DatabaseManager.initialize()
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
+      raise RuntimeError(f"Error de enlace DB: {e}") from e
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[20:29:55] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
+      cls._pool = psycopg2.pool.ThreadedConnectionPool(
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+          1, 25, # De 1 a 25 conexiones dinámicas
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      ...<6 lines>...
+          options="-c statement_timeout=60000" # 60s timeout para consultas largas
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
+      AbstractConnectionPool.__init__(
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+          self, minconn, maxconn, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
+      self._connect()
+      ~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
+      conn = psycopg2.connect(*self._args, **self._kwargs)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
+      DatabaseManager.initialize()
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
+      raise RuntimeError(f"Error de enlace DB: {e}") from e
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[19:43:27] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
+----------------------------------------
 [19:39:30] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
 ----------------------------------------
 [19:34:54] [Código: LIC-CONCURRENCY-OFFLINE-ERROR] - Error crítico al verificar estaciones locales: no existe la relación «system_active_sessions»
@@ -1138,170 +1251,4 @@ Traceback:
       expiry = lic_data.get("expiry") if lic_data else None
                ^^^^^^^^^^^^
   AttributeError: 'str' object has no attribute 'get'
-----------------------------------------
-[14:35:18] [Código: LIC-003] - Error de red: [Errno 11001] getaddrinfo failed
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
-      yield
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
-      resp = self._pool.handle_request(req)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
-      raise exc from None
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
-      response = connection.handle_request(
-          pool_request.request
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
-      raise exc
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
-      stream = self._connect(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
-      stream = self._network_backend.connect_tcp(**kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
-      with map_exceptions(exc_map):
-           ~~~~~~~~~~~~~~^^^^^^^^^
-    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
-      self.gen.throw(value)
-      ~~~~~~~~~~~~~~^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
-      raise to_exc(exc) from exc
-  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 302, in _check_with_github
-      resp = httpx.get(api_url, headers=headers, timeout=10, verify=False)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 195, in get
-      return request(
-          "GET",
-      ...<9 lines>...
-          trust_env=trust_env,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
-      return client.request(
-             ~~~~~~~~~~~~~~^
-          method=method,
-          ^^^^^^^^^^^^^^
-      ...<8 lines>...
-          follow_redirects=follow_redirects,
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
-      return self.send(request, auth=auth, follow_redirects=follow_redirects)
-             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
-      response = self._send_handling_auth(
-          request,
-      ...<2 lines>...
-          history=[],
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
-      response = self._send_handling_redirects(
-          request,
-          follow_redirects=follow_redirects,
-          history=history,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
-      response = self._send_single_request(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
-      response = transport.handle_request(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
-      with map_httpcore_exceptions():
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
-      self.gen.throw(value)
-      ~~~~~~~~~~~~~~^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
-      raise mapped_exc(message) from exc
-  httpx.ConnectError: [Errno 11001] getaddrinfo failed
-----------------------------------------
-[14:35:17] [Código: LIC-011] - Error de red con Supabase: [Errno 11001] getaddrinfo failed
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
-      yield
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
-      resp = self._pool.handle_request(req)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
-      raise exc from None
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
-      response = connection.handle_request(
-          pool_request.request
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 101, in handle_request
-      raise exc
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 78, in handle_request
-      stream = self._connect(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 124, in _connect
-      stream = self._network_backend.connect_tcp(**kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 207, in connect_tcp
-      with map_exceptions(exc_map):
-           ~~~~~~~~~~~~~~^^^^^^^^^
-    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
-      self.gen.throw(value)
-      ~~~~~~~~~~~~~~^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
-      raise to_exc(exc) from exc
-  httpcore.ConnectError: [Errno 11001] getaddrinfo failed
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 64, in _call_rpc
-      resp = httpx.post(
-          f"{url}/rest/v1/rpc/{function}",
-      ...<6 lines>...
-          timeout=10,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 304, in post
-      return request(
-          "POST",
-      ...<13 lines>...
-          trust_env=trust_env,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
-      return client.request(
-             ~~~~~~~~~~~~~~^
-          method=method,
-          ^^^^^^^^^^^^^^
-      ...<8 lines>...
-          follow_redirects=follow_redirects,
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
-      return self.send(request, auth=auth, follow_redirects=follow_redirects)
-             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
-      response = self._send_handling_auth(
-          request,
-      ...<2 lines>...
-          history=[],
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
-      response = self._send_handling_redirects(
-          request,
-          follow_redirects=follow_redirects,
-          history=history,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
-      response = self._send_single_request(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
-      response = transport.handle_request(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
-      with map_httpcore_exceptions():
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
-      self.gen.throw(value)
-      ~~~~~~~~~~~~~~^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
-      raise mapped_exc(message) from exc
-  httpx.ConnectError: [Errno 11001] getaddrinfo failed
-----------------------------------------
-[14:28:34] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[12:50:37] [Código: UPD-SAME] - Versión remota 0.0.13 <= local 0.0.13, sin actualización
 ----------------------------------------
