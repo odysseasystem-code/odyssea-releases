@@ -1,6 +1,12 @@
 ==================================================
  FECHA: 2026-06-30
 ==================================================
+[22:00:24] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[22:00:24] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[22:00:01] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
 [21:10:20] [Código: UPD-SAME] - Versión remota 0.0.4 <= local 0.0.4, sin actualización
 ----------------------------------------
 [21:06:51] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
