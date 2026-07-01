@@ -80,7 +80,7 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   },
   "E3:6F:E5:A6:1C:98": {
     "session_id": "0cdfc595-4dc9-41ca-adb4-250e21188972",
@@ -92,7 +92,7 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   },
   "AE:52:EF:5B:C5:C7": {
     "session_id": "96bb3b2b-12c2-4ac2-b82f-d979e9ae224d",
@@ -104,6 +104,6 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   }
 }
