@@ -1,6 +1,114 @@
 ==================================================
  FECHA: 2026-07-01
 ==================================================
+[19:40:16] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+ - 95 - 96 - invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 92, in initialize
+  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+   - 95 - 96 - invalid start byte
+----------------------------------------
+[19:40:12] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+ - 95 - 96 - invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 92, in initialize
+  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+   - 95 - 96 - invalid start byte
+----------------------------------------
+[19:40:09] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+ - 95 - 96 - invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 92, in initialize
+  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+   - 95 - 96 - invalid start byte
+----------------------------------------
+[19:21:43] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[19:21:40] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[19:21:37] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
 [17:34:25] [Código: UPD-SAME] - Versión remota 1.0.0 <= local 1.0.0, sin actualización
 ----------------------------------------
 [16:34:25] [Código: UPD-SAME] - Versión remota 1.0.0 <= local 1.0.0, sin actualización
