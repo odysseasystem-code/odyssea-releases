@@ -1,5 +1,5 @@
 {
-  "current": "v0.0.4",
+  "current": "v0.0.5",
   "history": [
     {
       "version": "v0.0.4",
@@ -7,6 +7,13 @@
       "type": "patch",
       "changelog": "Actualizacion de mantenimiento",
       "tag": "CLIENTE_01-v0.0.4"
+    },
+    {
+      "version": "v0.0.5",
+      "date": "30/06/2026",
+      "type": "patch",
+      "changelog": "Actualizacion de mantenimiento",
+      "tag": "CLIENTE_01-v0.0.5"
     }
   ]
 }
