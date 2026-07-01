@@ -2,13 +2,6 @@
   "current": "v0.0.2",
   "history": [
     {
-      "version": "v0.0.1",
-      "date": "30/06/2026",
-      "type": "patch",
-      "changelog": "Actualizacion de mantenimiento",
-      "tag": "CLIENTE_01-v0.0.1"
-    },
-    {
       "version": "v0.0.2",
       "date": "30/06/2026",
       "type": "patch",
