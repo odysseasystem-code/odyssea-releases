@@ -1,0 +1,14 @@
+{
+  "8A:A3:30:FC:67:D0": {
+    "session_id": "3e5d1511-f777-449d-bb74-360bc8d16229",
+    "workstation": "uuzcategui",
+    "ip_local": "192.168.68.250",
+    "ip_publica": "45.198.56.27",
+    "user": "Usuario",
+    "heartbeat": "2026-07-01T16:34:16.208023",
+    "os_version": "Windows 11",
+    "date_tampering_detected": false,
+    "violation_attempt": false,
+    "revoked": false
+  }
+}
