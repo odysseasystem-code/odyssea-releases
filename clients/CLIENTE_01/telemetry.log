@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-06-30
 ==================================================
+[21:10:20] [Código: UPD-SAME] - Versión remota 0.0.4 <= local 0.0.4, sin actualización
+----------------------------------------
 [21:06:51] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
