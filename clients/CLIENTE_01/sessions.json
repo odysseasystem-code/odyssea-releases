@@ -1,11 +1,11 @@
 {
   "AE:52:EF:5B:C5:C7": {
-    "session_id": "5e17530e-6e5b-4671-b01e-c1bd4e565a17",
+    "session_id": "80907d51-c0e2-4164-be1c-9ad311d22613",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.27",
     "user": "Usuario",
-    "heartbeat": "2026-06-30T22:06:11.017174",
+    "heartbeat": "2026-06-30T22:35:26.549464",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
