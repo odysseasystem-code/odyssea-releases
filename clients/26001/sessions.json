@@ -1,11 +1,11 @@
 {
   "8A:A3:30:FC:67:D0": {
-    "session_id": "4b3832da-dbf8-4962-a0dd-379e0774df36",
+    "session_id": "b35775f2-69a9-45bd-a97e-cb08a99b6073",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.27",
     "user": "Usuario",
-    "heartbeat": "2026-07-01T20:29:22.675377",
+    "heartbeat": "2026-07-01T20:53:14.808515",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
