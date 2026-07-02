@@ -1,5 +1,5 @@
 {
-  "current": "v0.0.21",
+  "current": "v0.0.20",
   "history": [
     {
       "version": "v0.0.19",
@@ -14,13 +14,6 @@
       "type": "patch",
       "changelog": "Actualizacion de mantenimiento",
       "tag": "Ulises_Uzcategui-v0.0.20"
-    },
-    {
-      "version": "v0.0.21",
-      "date": "30/06/2026",
-      "type": "patch",
-      "changelog": "Actualizacion de mantenimiento",
-      "tag": "Ulises_Uzcategui-v0.0.21"
     }
   ]
 }
