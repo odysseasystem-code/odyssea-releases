@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-02
 ==================================================
+[18:43:15] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
+----------------------------------------
 [18:29:54] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
 ----------------------------------------
 [07:28:41] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
@@ -695,12 +697,4 @@ Traceback:
 [14:36:20] [Código: UPD-FALLBACK] - raw.githubusercontent.com falló, intentando GitHub API...
 ----------------------------------------
 [14:36:19] [Código: UPD-REQ] - Error de conexión a raw.githubusercontent.com: [Errno 11001] getaddrinfo failed
-----------------------------------------
-[14:35:51] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
-      expiry = lic_data.get("expiry") if lic_data else None
-               ^^^^^^^^^^^^
-  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
