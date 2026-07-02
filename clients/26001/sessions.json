@@ -9,7 +9,7 @@
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
-    "revoked": false
+    "revoked": true
   },
   "DC:BD:A6:99:BB:5A": {
     "session_id": "07dc82e1-b736-4088-b585-661983e1db7c",
