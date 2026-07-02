@@ -2,13 +2,6 @@
   "current": "v1.0.1",
   "history": [
     {
-      "version": "v1.0.0",
-      "date": "01/07/2026",
-      "type": "major",
-      "changelog": "Actualizacion de mantenimiento",
-      "tag": "26001-v1.0.0"
-    },
-    {
       "version": "v1.0.1",
       "date": "01/07/2026",
       "type": "patch",
