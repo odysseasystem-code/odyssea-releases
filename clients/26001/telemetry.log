@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-02
 ==================================================
+[11:55:26] [Código: UPD-SAME] - Versión remota 1.0.4 <= local 1.0.4, sin actualización
+----------------------------------------
 [09:01:28] [Código: UPD-SAME] - Versión remota 1.0.4 <= local 1.0.4, sin actualización
 ----------------------------------------
 [08:43:30] [Código: UPD-SAME] - Versión remota 1.0.4 <= local 1.0.4, sin actualización
@@ -695,6 +697,4 @@ Traceback:
 [14:36:20] [Código: UPD-REQ] - Error de conexión a api.github.com: [Errno 11001] getaddrinfo failed
 ----------------------------------------
 [14:36:20] [Código: UPD-FALLBACK] - raw.githubusercontent.com falló, intentando GitHub API...
-----------------------------------------
-[14:36:19] [Código: UPD-REQ] - Error de conexión a raw.githubusercontent.com: [Errno 11001] getaddrinfo failed
 ----------------------------------------
