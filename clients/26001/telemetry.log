@@ -1,700 +1,249 @@
 ==================================================
  FECHA: 2026-07-02
 ==================================================
-[18:53:45] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
+[14:18:55] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
 ----------------------------------------
-[18:53:24] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
+[14:17:55] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
 ----------------------------------------
-[18:47:55] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
+[13:39:25] [Código: UPD-SAME] - Versión remota 0.1.0 <= local 0.1.0, sin actualización
 ----------------------------------------
-[18:43:15] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
-----------------------------------------
-[18:29:54] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
-----------------------------------------
-[07:28:41] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
-----------------------------------------
-[07:24:46] [Código: LIC-001] - client_id Ulises Uzcategui no encontrado en licenses.json
+[13:38:15] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
-  NoneType: None
+  Traceback (most recent call last):
+    File "src\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "src\main.py", line 343, in init_system
+    File "src\core\database\connection.py", line 72, in initialize
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 ----------------------------------------
-[07:24:44] [Código: LIC-001] - client_id Ulises Uzcategui no encontrado en licenses.json
+[13:38:12] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
-  NoneType: None
+  Traceback (most recent call last):
+    File "src\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "src\main.py", line 343, in init_system
+    File "src\core\database\connection.py", line 72, in initialize
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[13:38:09] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+Traceback:
+  Traceback (most recent call last):
+    File "src\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
+  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "src\main.py", line 343, in init_system
+    File "src\core\database\connection.py", line 72, in initialize
+  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+----------------------------------------
+[07:51:14] [Código: UPD-SAME] - Versión remota 1.0.4 <= local 1.0.4, sin actualización
+----------------------------------------
+[07:49:38] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[07:49:38] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[07:49:17] [Código: UPD-010] - Boveda respaldada antes de actualizar
+----------------------------------------
+[07:36:41] [Código: UPD-SAME] - Versión remota 1.0.3 <= local 1.0.3, sin actualización
+----------------------------------------
+[07:35:44] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+----------------------------------------
+[07:35:44] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+----------------------------------------
+[07:35:38] [Código: UPD-010] - Boveda respaldada antes de actualizar
 ----------------------------------------
 
 ==================================================
  FECHA: 2026-07-01
 ==================================================
-[21:12:39] [Código: LIC-001] - client_id Ulises Uzcategui no encontrado en licenses.json
-Traceback:
-  NoneType: None
+[21:09:37] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
 ----------------------------------------
-[21:12:35] [Código: LIC-001] - client_id Ulises Uzcategui no encontrado en licenses.json
-Traceback:
-  NoneType: None
+[20:53:22] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
 ----------------------------------------
-[19:30:05] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+[19:43:03] [Código: UPD-SAME] - Versión remota 1.0.1 <= local 1.0.1, sin actualización
+----------------------------------------
+[19:40:16] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
  - 95 - 96 - invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 92, in initialize
   RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
    - 95 - 96 - invalid start byte
 ----------------------------------------
-[19:30:02] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+[19:40:12] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
  - 95 - 96 - invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 92, in initialize
   RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
    - 95 - 96 - invalid start byte
 ----------------------------------------
-[19:29:59] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
+[19:40:09] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
  - 95 - 96 - invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 92, in initialize
   RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
    - 95 - 96 - invalid start byte
 ----------------------------------------
-[19:27:49] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
+[19:21:43] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
-----------------------------------------
-[19:27:46] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
-----------------------------------------
-[19:27:43] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
-----------------------------------------
-[19:25:05] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
   RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 ----------------------------------------
-[19:25:02] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+[19:21:40] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
   RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 ----------------------------------------
-[19:24:59] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+[19:21:37] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
   RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 ----------------------------------------
-
-==================================================
- FECHA: 2026-06-30
-==================================================
-[20:30:01] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+[17:34:25] [Código: UPD-SAME] - Versión remota 1.0.0 <= local 1.0.0, sin actualización
+----------------------------------------
+[16:34:25] [Código: UPD-SAME] - Versión remota 1.0.0 <= local 1.0.0, sin actualización
+----------------------------------------
+[16:31:04] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
   RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 ----------------------------------------
-[20:29:58] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+[16:31:01] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
   RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 ----------------------------------------
-[20:29:55] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
+[16:30:58] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
 Traceback:
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+    File "core\core\database\connection.py", line 49, in initialize
+    File "psycopg2\pool.py", line 161, in __init__
+    File "psycopg2\pool.py", line 59, in __init__
+    File "psycopg2\pool.py", line 63, in _connect
+    File "psycopg2\__init__.py", line 135, in connect
   UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
   
   The above exception was the direct cause of the following exception:
   
   Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
+    File "core\main.py", line 343, in init_system
+    File "core\core\database\connection.py", line 72, in initialize
   RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[19:43:27] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[19:39:30] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[19:34:54] [Código: LIC-CONCURRENCY-OFFLINE-ERROR] - Error crítico al verificar estaciones locales: no existe la relación «system_active_sessions»
-LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
-                                             ^
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 354, in check_stations
-      cur.execute("""
-      ~~~~~~~~~~~^^^^
-          SELECT COUNT(*) FROM system_active_sessions
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      """)
-      ^^^^
-  psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
-  LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
-                                               ^
-----------------------------------------
-[19:34:02] [Código: LIC-CONCURRENCY-OFFLINE-ERROR] - Error crítico al verificar estaciones locales: no existe la relación «system_active_sessions»
-LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
-                                             ^
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\license_checker.py", line 354, in check_stations
-      cur.execute("""
-      ~~~~~~~~~~~^^^^
-          SELECT COUNT(*) FROM system_active_sessions
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-          WHERE last_heartbeat > NOW() - INTERVAL '2 minutes'
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      """)
-      ^^^^
-  psycopg2.errors.UndefinedTable: no existe la relación «system_active_sessions»
-  LINE 2:                 SELECT COUNT(*) FROM system_active_sessions
-                                               ^
-----------------------------------------
-[18:55:33] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
-  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[18:55:30] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
-  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[18:55:27] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 72, in initialize
-      raise RuntimeError(f"Error de enlace DB: {e}") from e
-  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[16:36:24] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[16:22:48] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[14:54:43] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[14:48:24] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[13:58:15] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-[13:53:36] [Código: UPD-SAME] - Versión remota 0.0.21 <= local 0.0.21, sin actualización
-----------------------------------------
-
-==================================================
- FECHA: 2026-06-29
-==================================================
-[16:33:06] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
-----------------------------------------
-[16:32:48] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
-----------------------------------------
-[16:26:30] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
-----------------------------------------
-[16:25:59] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
-      expiry = lic_data.get("expiry") if lic_data else None
-               ^^^^^^^^^^^^
-  AttributeError: 'str' object has no attribute 'get'
-----------------------------------------
-[16:22:19] [Código: UPD-SAME] - Versión remota 0.0.17 <= local 0.0.17, sin actualización
-----------------------------------------
-[15:33:46] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[15:28:41] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[15:18:33] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[15:18:21] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[15:04:28] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[15:04:24] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[15:04:17] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[14:58:14] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[14:56:50] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
-----------------------------------------
-[14:56:07] [Código: UPD-SAME] - Versión remota 0.0.16 <= local 0.0.16, sin actualización
 ----------------------------------------
