@@ -1,7 +1,6 @@
 {
-  "version": "v0.1.4",
-  "url_exe": null,
-  "hash_sha256": "",
+  "version": "v0.1.5",
   "changelog": "Actualizacion de mantenimiento",
+  "installer_url": "https://github.com/odysseasystem-code/odyssea-releases/releases/download/26001-v0.1.5/Odyssea_26001_v0.1.5_Setup.exe",
   "published_at": "2026-07-02"
 }
