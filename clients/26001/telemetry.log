@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-08
 ==================================================
+[15:47:10] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
 [15:42:02] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
 [12:23:59] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
@@ -110,10 +112,6 @@
 [07:28:41] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
 ----------------------------------------
 [07:24:46] [Código: LIC-001] - client_id Ulises Uzcategui no encontrado en licenses.json
-Traceback:
-  NoneType: None
-----------------------------------------
-[07:24:44] [Código: LIC-001] - client_id Ulises Uzcategui no encontrado en licenses.json
 Traceback:
   NoneType: None
 ----------------------------------------
