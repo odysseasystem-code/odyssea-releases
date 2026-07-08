@@ -60,12 +60,12 @@
     "revoked": false
   },
   "DD:67:6B:F3:EC:AD": {
-    "session_id": "f0e1707f-b817-4fe1-a839-71058cea3d06",
+    "session_id": "4b92ba60-b168-41a5-954b-e48aac5a12a7",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-08T11:00:09.703236",
+    "heartbeat": "2026-07-08T11:01:23.105674",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
