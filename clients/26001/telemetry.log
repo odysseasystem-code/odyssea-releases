@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-08
 ==================================================
+[12:07:06] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
 [11:59:18] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
 [11:53:49] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
@@ -122,45 +124,6 @@ Traceback:
   NoneType: None
 ----------------------------------------
 [19:30:05] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 343, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
-----------------------------------------
-[19:30:02] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
  - 95 - 96 - invalid start byte
 Traceback:
   Traceback (most recent call last):
