@@ -1,144 +1,204 @@
 ==================================================
+ FECHA: 2026-07-09
+==================================================
+[10:16:12] [Código: SES-005] - Error de telemetria en GitHub: The read operation timed out
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+      yield
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+      resp = self._pool.handle_request(req)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+      raise exc from None
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+      response = connection.handle_request(
+          pool_request.request
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+      return self._connection.handle_request(request)
+             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+      raise exc
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+      ) = self._receive_response_headers(**kwargs)
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+      event = self._receive_event(timeout=timeout)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+      data = self._network_stream.read(
+          self.READ_NUM_BYTES, timeout=timeout
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+      with map_exceptions(exc_map):
+           ~~~~~~~~~~~~~~^^^^^^^^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+      raise to_exc(exc) from exc
+  httpcore.ReadTimeout: The read operation timed out
+  
+  The above exception was the direct cause of the following exception:
+  
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 334, in _sync_github_session
+      put_r = httpx.put(url, headers=headers, json=payload, timeout=5, verify=False)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 345, in put
+      return request(
+          "PUT",
+      ...<13 lines>...
+          trust_env=trust_env,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
+      return client.request(
+             ~~~~~~~~~~~~~~^
+          method=method,
+          ^^^^^^^^^^^^^^
+      ...<8 lines>...
+          follow_redirects=follow_redirects,
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      )
+      ^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
+      return self.send(request, auth=auth, follow_redirects=follow_redirects)
+             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
+      response = self._send_handling_auth(
+          request,
+      ...<2 lines>...
+          history=[],
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+      response = self._send_handling_redirects(
+          request,
+          follow_redirects=follow_redirects,
+          history=history,
+      )
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+      response = self._send_single_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+      response = transport.handle_request(request)
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+      with map_httpcore_exceptions():
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
+      self.gen.throw(value)
+      ~~~~~~~~~~~~~~^^^^^^^
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+      raise mapped_exc(message) from exc
+  httpx.ReadTimeout: The read operation timed out
+----------------------------------------
+[10:16:10] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
+
+==================================================
  FECHA: 2026-07-08
 ==================================================
-[19:39:43] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+[16:16:21] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[19:37:24] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+[16:03:19] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[19:15:58] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+[15:50:28] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[18:27:01] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[15:47:10] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[18:27:01] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[15:42:02] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[18:26:54] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[12:23:59] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[16:40:23] [Código: UPD-SAME] - Versión remota 0.1.11 <= local 0.1.11, sin actualización
+[12:13:38] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[16:39:29] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[12:07:06] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[16:39:29] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[11:59:18] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
-[16:39:23] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[11:53:49] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[11:41:50] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[11:34:44] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[11:01:32] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[10:44:59] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[10:41:14] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[09:07:54] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[09:04:56] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[09:01:42] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:58:49] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:55:16] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:51:45] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:45:16] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:29:20] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:19:12] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[08:01:15] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[07:10:24] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[07:04:21] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+
+==================================================
+ FECHA: 2026-07-07
+==================================================
+[22:30:47] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[22:20:13] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[22:15:03] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[22:09:09] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[22:04:34] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[21:54:03] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[21:04:53] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[20:57:07] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[20:35:52] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[19:05:12] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
+----------------------------------------
+[19:00:48] [Código: UPD-SAME] - Versión remota 0.1.10 <= local 0.1.10, sin actualización
 ----------------------------------------
 
 ==================================================
  FECHA: 2026-07-03
 ==================================================
-[14:15:30] [Código: UPD-SAME] - Versión remota 0.1.9 <= local 0.1.9, sin actualización
+[13:58:31] [Código: UPD-SAME] - Versión remota 0.1.8 <= local 0.1.8, sin actualización
 ----------------------------------------
-[14:14:33] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[13:58:09] [Código: UPD-SAME] - Versión remota 0.1.8 <= local 0.1.8, sin actualización
 ----------------------------------------
-[14:14:33] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[12:53:45] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
-[14:14:27] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[12:52:40] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
-[13:08:54] [Código: UPD-SAME] - Versión remota 0.1.8 <= local 0.1.8, sin actualización
-----------------------------------------
-[13:07:57] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[13:07:57] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[13:07:51] [Código: UPD-010] - Boveda respaldada antes de actualizar
+[12:51:41] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
 
 ==================================================
  FECHA: 2026-07-02
 ==================================================
-[23:20:56] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
+[23:50:45] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
-[23:18:06] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
+[23:50:20] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
-[23:17:25] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
+[23:48:41] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
-[23:17:25] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
+[23:47:28] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
-[23:17:19] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[22:55:28] [Código: UPD-SAME] - Versión remota 0.1.6 <= local 0.1.6, sin actualización
-----------------------------------------
-[21:57:53] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[21:57:53] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[21:57:48] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[14:18:55] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
-----------------------------------------
-[14:17:55] [Código: UPD-SAME] - Versión remota 0.1.2 <= local 0.1.2, sin actualización
-----------------------------------------
-[13:39:25] [Código: UPD-SAME] - Versión remota 0.1.0 <= local 0.1.0, sin actualización
-----------------------------------------
-[13:38:15] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "src\core\database\connection.py", line 49, in initialize
-    File "psycopg2\pool.py", line 161, in __init__
-    File "psycopg2\pool.py", line 59, in __init__
-    File "psycopg2\pool.py", line 63, in _connect
-    File "psycopg2\__init__.py", line 135, in connect
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "src\main.py", line 343, in init_system
-    File "src\core\database\connection.py", line 72, in initialize
-  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[13:38:12] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "src\core\database\connection.py", line 49, in initialize
-    File "psycopg2\pool.py", line 161, in __init__
-    File "psycopg2\pool.py", line 59, in __init__
-    File "psycopg2\pool.py", line 63, in _connect
-    File "psycopg2\__init__.py", line 135, in connect
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "src\main.py", line 343, in init_system
-    File "src\core\database\connection.py", line 72, in initialize
-  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[13:38:09] [Código: ERR-DB-01] - Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "src\core\database\connection.py", line 49, in initialize
-    File "psycopg2\pool.py", line 161, in __init__
-    File "psycopg2\pool.py", line 59, in __init__
-    File "psycopg2\pool.py", line 63, in _connect
-    File "psycopg2\__init__.py", line 135, in connect
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "src\main.py", line 343, in init_system
-    File "src\core\database\connection.py", line 72, in initialize
-  RuntimeError: Error de enlace DB: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-----------------------------------------
-[07:51:14] [Código: UPD-SAME] - Versión remota 1.0.4 <= local 1.0.4, sin actualización
-----------------------------------------
-[07:49:38] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[07:49:38] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[07:49:17] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-[07:36:41] [Código: UPD-SAME] - Versión remota 1.0.3 <= local 1.0.3, sin actualización
-----------------------------------------
-[07:35:44] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
-----------------------------------------
-[07:35:44] [Código: UPD-UI-01] - Iniciando _setup_restart_ui en UI thread
-----------------------------------------
-[07:35:38] [Código: UPD-010] - Boveda respaldada antes de actualizar
-----------------------------------------
-
-==================================================
- FECHA: 2026-07-01
-==================================================
-[21:09:37] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
+[23:47:22] [Código: UPD-SAME] - Versión remota 0.1.7 <= local 0.1.7, sin actualización
 ----------------------------------------
