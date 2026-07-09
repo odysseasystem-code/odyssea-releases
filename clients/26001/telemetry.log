@@ -1,6 +1,10 @@
 ==================================================
  FECHA: 2026-07-08
 ==================================================
+[19:39:43] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
+[19:37:24] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [19:15:58] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [18:27:01] [Código: UPD-UI-03] - _setup_restart_ui completado con éxito
@@ -137,65 +141,4 @@ Traceback:
  FECHA: 2026-07-01
 ==================================================
 [21:09:37] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
-----------------------------------------
-[20:53:22] [Código: UPD-SAME] - Versión remota 1.0.2 <= local 1.0.2, sin actualización
-----------------------------------------
-[19:43:03] [Código: UPD-SAME] - Versión remota 1.0.1 <= local 1.0.1, sin actualización
-----------------------------------------
-[19:40:16] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "core\core\database\connection.py", line 49, in initialize
-    File "psycopg2\pool.py", line 161, in __init__
-    File "psycopg2\pool.py", line 59, in __init__
-    File "psycopg2\pool.py", line 63, in _connect
-    File "psycopg2\__init__.py", line 135, in connect
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "core\main.py", line 343, in init_system
-    File "core\core\database\connection.py", line 92, in initialize
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
-----------------------------------------
-[19:40:12] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "core\core\database\connection.py", line 49, in initialize
-    File "psycopg2\pool.py", line 161, in __init__
-    File "psycopg2\pool.py", line 59, in __init__
-    File "psycopg2\pool.py", line 63, in _connect
-    File "psycopg2\__init__.py", line 135, in connect
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "core\main.py", line 343, in init_system
-    File "core\core\database\connection.py", line 92, in initialize
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
-----------------------------------------
-[19:40:09] [Código: ERR-DB-01] - Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
- - 95 - 96 - invalid start byte
-Traceback:
-  Traceback (most recent call last):
-    File "core\core\database\connection.py", line 49, in initialize
-    File "psycopg2\pool.py", line 161, in __init__
-    File "psycopg2\pool.py", line 59, in __init__
-    File "psycopg2\pool.py", line 63, in _connect
-    File "psycopg2\__init__.py", line 135, in connect
-  UnicodeDecodeError: 'utf-8' codec can't decode byte 0xab in position 95: invalid start byte
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "core\main.py", line 343, in init_system
-    File "core\core\database\connection.py", line 92, in initialize
-  RuntimeError: Error de enlace DB: utf-8 - connection to server at "192.168.68.250", port 5432 failed: FATAL:  no existe la base de datos «odyssea_erp»
-   - 95 - 96 - invalid start byte
 ----------------------------------------
