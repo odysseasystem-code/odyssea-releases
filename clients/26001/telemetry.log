@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-10
 ==================================================
+[11:14:19] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [11:12:12] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [11:10:47] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
@@ -146,6 +148,4 @@ Traceback:
       expiry = lic_data.get("expiry") if lic_data else None
                ^^^^^^^^^^^^
   AttributeError: 'str' object has no attribute 'get'
-----------------------------------------
-[07:12:19] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
