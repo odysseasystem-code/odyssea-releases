@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-10
 ==================================================
+[14:16:51] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [14:16:31] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
 Traceback:
   Traceback (most recent call last):
@@ -213,6 +215,4 @@ Traceback:
 [10:12:30] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [10:04:07] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[10:00:27] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
