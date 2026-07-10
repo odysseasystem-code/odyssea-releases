@@ -1,6 +1,24 @@
 ==================================================
  FECHA: 2026-07-10
 ==================================================
+[08:37:05] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[08:37:02] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[08:33:20] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [08:27:45] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [08:27:23] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
@@ -134,95 +152,4 @@ Traceback:
 [20:59:41] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [12:58:41] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[12:28:20] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[10:16:12] [Código: SES-005] - Error de telemetria en GitHub: The read operation timed out
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
-      yield
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
-      resp = self._pool.handle_request(req)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
-      raise exc from None
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
-      response = connection.handle_request(
-          pool_request.request
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
-      return self._connection.handle_request(request)
-             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
-      raise exc
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
-      ) = self._receive_response_headers(**kwargs)
-          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
-      event = self._receive_event(timeout=timeout)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
-      data = self._network_stream.read(
-          self.READ_NUM_BYTES, timeout=timeout
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
-      with map_exceptions(exc_map):
-           ~~~~~~~~~~~~~~^^^^^^^^^
-    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
-      self.gen.throw(value)
-      ~~~~~~~~~~~~~~^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
-      raise to_exc(exc) from exc
-  httpcore.ReadTimeout: The read operation timed out
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\updater\session_manager.py", line 334, in _sync_github_session
-      put_r = httpx.put(url, headers=headers, json=payload, timeout=5, verify=False)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 345, in put
-      return request(
-          "PUT",
-      ...<13 lines>...
-          trust_env=trust_env,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_api.py", line 109, in request
-      return client.request(
-             ~~~~~~~~~~~~~~^
-          method=method,
-          ^^^^^^^^^^^^^^
-      ...<8 lines>...
-          follow_redirects=follow_redirects,
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 825, in request
-      return self.send(request, auth=auth, follow_redirects=follow_redirects)
-             ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 914, in send
-      response = self._send_handling_auth(
-          request,
-      ...<2 lines>...
-          history=[],
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
-      response = self._send_handling_redirects(
-          request,
-          follow_redirects=follow_redirects,
-          history=history,
-      )
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
-      response = self._send_single_request(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
-      response = transport.handle_request(request)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
-      with map_httpcore_exceptions():
-           ~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\AppData\Local\Programs\Python\Python314\Lib\contextlib.py", line 162, in __exit__
-      self.gen.throw(value)
-      ~~~~~~~~~~~~~~^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
-      raise mapped_exc(message) from exc
-  httpx.ReadTimeout: The read operation timed out
-----------------------------------------
-[10:16:10] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
