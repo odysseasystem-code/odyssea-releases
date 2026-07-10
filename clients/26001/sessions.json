@@ -96,12 +96,12 @@
     "revoked": false
   },
   "EC:CD:E7:D4:26:50": {
-    "session_id": "786953ba-125f-432a-9505-09155d764ff6",
+    "session_id": "ce656c2a-558e-4bd6-9947-ed951a7c473b",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-10T11:14:13.590773",
+    "heartbeat": "2026-07-10T11:15:11.254478",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
