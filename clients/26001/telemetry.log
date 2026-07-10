@@ -1,6 +1,16 @@
 ==================================================
  FECHA: 2026-07-10
 ==================================================
+[11:19:02] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
+Traceback:
+  Traceback (most recent call last):
+    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
+      expiry = lic_data.get("expiry") if lic_data else None
+               ^^^^^^^^^^^^
+  AttributeError: 'str' object has no attribute 'get'
+----------------------------------------
+[11:18:20] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [11:17:06] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [11:15:20] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
@@ -132,14 +142,4 @@ Traceback:
   AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
 [07:29:04] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[07:27:48] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[07:24:14] [Código: LIC-013] - Error validando contra DB: 'str' object has no attribute 'get'
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\utils\supabase_validator.py", line 138, in validate_with_postgres
-      expiry = lic_data.get("expiry") if lic_data else None
-               ^^^^^^^^^^^^
-  AttributeError: 'str' object has no attribute 'get'
 ----------------------------------------
