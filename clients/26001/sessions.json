@@ -120,12 +120,12 @@
     "revoked": false
   },
   "FF:22:A7:79:2C:0F": {
-    "session_id": "ed174721-d99f-4c06-bebe-cdca359b839d",
+    "session_id": "3f094d3a-32ea-4a40-bc19-82f1456cf4f2",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-10T21:09:49.624718",
+    "heartbeat": "2026-07-10T21:13:31.313954",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
