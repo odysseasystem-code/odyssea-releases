@@ -168,12 +168,12 @@
     "revoked": false
   },
   "EA:F7:41:40:67:CC": {
-    "session_id": "59c4a75a-de31-4d4a-947d-34e6aa3d4bce",
+    "session_id": "38e50621-82f0-4718-b0a0-334624bb9176",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-13T23:20:17.613509",
+    "heartbeat": "2026-07-13T23:22:20.078560",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
