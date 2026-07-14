@@ -180,12 +180,12 @@
     "revoked": false
   },
   "AA:4B:FB:2B:E3:E2": {
-    "session_id": "08b74dae-bd2b-427a-9fae-f0ad7778ac79",
+    "session_id": "325c3a71-c323-443b-b1f3-fcff361a5a18",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-14T18:40:13.256110",
+    "heartbeat": "2026-07-14T18:41:17.538052",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
