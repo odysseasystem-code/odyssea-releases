@@ -204,12 +204,12 @@
     "revoked": false
   },
   "D0:41:B4:A9:5D:B8": {
-    "session_id": "c053b72d-b4ad-48da-abd4-b27887546ac6",
+    "session_id": "bb79e642-ca37-4067-a873-b68ef92d75c2",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-15T21:53:06.537977",
+    "heartbeat": "2026-07-15T21:57:00.929737",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
