@@ -228,12 +228,12 @@
     "revoked": false
   },
   "86:BF:DB:09:E2:92": {
-    "session_id": "0f1d2c6c-adaf-4135-952e-eafcd12a1420",
+    "session_id": "e3baeb82-f783-4aa3-9084-99867f2eec6e",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-17T13:55:18.711157",
+    "heartbeat": "2026-07-17T13:59:32.450962",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
