@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-07-17
 ==================================================
+[18:40:18] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [18:34:13] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [18:24:13] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
@@ -179,6 +181,4 @@ Traceback:
   httpx.ConnectError: [Errno 11001] getaddrinfo failed
 ----------------------------------------
 [08:42:51] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[08:29:21] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
