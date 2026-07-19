@@ -264,12 +264,12 @@
     "revoked": false
   },
   "CF:AF:35:EA:C5:C0": {
-    "session_id": "8e043e6f-4f39-49c8-ba15-a42d852af9b2",
+    "session_id": "f2d29449-1b5e-4531-b251-c1c85d9dc2b6",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-19T10:49:27.974659",
+    "heartbeat": "2026-07-19T10:52:13.170060",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
