@@ -288,12 +288,12 @@
     "revoked": false
   },
   "94:C0:35:6A:1F:C7": {
-    "session_id": "4c26a060-d649-4779-bafd-2529cdef3ab6",
+    "session_id": "a8f3e6ff-f714-4bba-96a7-230d098f7b27",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-20T10:45:33.230163",
+    "heartbeat": "2026-07-20T10:49:24.305622",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
