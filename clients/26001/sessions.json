@@ -300,12 +300,12 @@
     "revoked": false
   },
   "BF:61:6E:9F:BA:04": {
-    "session_id": "0a3170d7-ff73-4c57-9faa-dd973910b288",
+    "session_id": "9eeb7360-868e-4c3a-8af7-b56c692fdac6",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-21T18:52:51.238791",
+    "heartbeat": "2026-07-21T19:17:10.069108",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
