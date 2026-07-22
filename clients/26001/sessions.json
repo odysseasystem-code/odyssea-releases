@@ -312,12 +312,12 @@
     "revoked": false
   },
   "C4:CB:89:F8:11:6C": {
-    "session_id": "20225bd8-c2df-4ee5-bb62-ab5c6ce167a2",
+    "session_id": "c847a9ce-11bd-4eef-8195-4c6f6c4cf73a",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-22T10:47:50.205122",
+    "heartbeat": "2026-07-22T10:52:48.368019",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
