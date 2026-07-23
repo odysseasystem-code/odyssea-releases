@@ -348,12 +348,12 @@
     "revoked": false
   },
   "98:AE:E3:D1:5B:5B": {
-    "session_id": "803fb092-3513-4c10-a555-0eb7d58a4862",
+    "session_id": "7df16b21-2ef0-4df8-ae69-f9cac7abfef2",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-07-23T08:14:49.323799",
+    "heartbeat": "2026-07-23T08:19:56.176460",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
