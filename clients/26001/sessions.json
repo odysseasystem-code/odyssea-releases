@@ -408,12 +408,12 @@
     "revoked": false
   },
   "DD:59:64:BD:D7:A7": {
-    "session_id": "d6f949cc-aeaa-446b-960f-dacf128714f7",
+    "session_id": "0a49f207-ee9c-4627-abd1-8ad3b31f6272",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-02T10:04:57.786235",
+    "heartbeat": "2026-08-02T10:15:37.964785",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
