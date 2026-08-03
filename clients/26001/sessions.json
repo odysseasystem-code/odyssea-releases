@@ -420,12 +420,12 @@
     "revoked": false
   },
   "BE:3A:40:22:69:E2": {
-    "session_id": "78d8c1e9-855d-46b7-bce0-af6ff422c12c",
+    "session_id": "950ea18d-a247-4d6d-9d0e-2910693ffdbf",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-03T16:40:21.548162",
+    "heartbeat": "2026-08-03T16:53:29.146323",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
