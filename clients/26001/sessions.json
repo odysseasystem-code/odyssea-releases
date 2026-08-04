@@ -456,12 +456,12 @@
     "revoked": false
   },
   "C4:DC:35:5A:00:A1": {
-    "session_id": "75167d18-3f78-4331-b170-391d63c1ae51",
+    "session_id": "166a826a-4f1c-4b7d-bb2a-97610ad988b8",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-04T16:22:40.327676",
+    "heartbeat": "2026-08-04T16:28:51.509973",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
