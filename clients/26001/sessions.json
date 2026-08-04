@@ -444,12 +444,12 @@
     "revoked": false
   },
   "A1:6C:7A:3D:3F:B2": {
-    "session_id": "e6b091f5-d39f-4bf1-8ff5-74114d6f24b5",
+    "session_id": "9d69c423-bd1f-4ddb-8f84-8037adb957d1",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-03T22:46:22.042873",
+    "heartbeat": "2026-08-03T22:52:01.309987",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
