@@ -480,12 +480,12 @@
     "revoked": false
   },
   "95:80:09:AE:08:22": {
-    "session_id": "3e309eb4-37a2-4294-8888-aadbb3d95012",
+    "session_id": "b1ae5d1b-f8d6-444f-811a-7e412766e892",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.250",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-05T13:43:43.136792",
+    "heartbeat": "2026-08-05T13:48:17.065257",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
