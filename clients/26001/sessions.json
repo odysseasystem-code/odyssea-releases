@@ -504,12 +504,12 @@
     "revoked": false
   },
   "81:A3:36:41:67:E8": {
-    "session_id": "baa31f45-47a3-431b-a60c-9d7abdcd167a",
+    "session_id": "f12e191a-365b-425c-a02b-d23a53702d3b",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.106",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-06T17:59:12.811885",
+    "heartbeat": "2026-08-06T18:03:26.020862",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
