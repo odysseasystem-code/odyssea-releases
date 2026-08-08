@@ -552,12 +552,12 @@
     "revoked": false
   },
   "AA:05:CC:47:25:6F": {
-    "session_id": "4cf2c16f-dd3e-420a-8272-4039e342a593",
+    "session_id": "e9104ed2-52d2-42de-bd85-6837670bd9ad",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.106",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-08T16:47:22.658883",
+    "heartbeat": "2026-08-08T16:54:50.232592",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
