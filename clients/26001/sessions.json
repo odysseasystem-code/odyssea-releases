@@ -540,12 +540,12 @@
     "revoked": false
   },
   "BB:60:92:50:A6:79": {
-    "session_id": "808bc13d-db80-48ca-bd44-6ac888f71025",
+    "session_id": "4a52bb8c-8acd-40ef-ab23-83ab4886e710",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.106",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-07T23:15:56.511127",
+    "heartbeat": "2026-08-07T23:20:42.425607",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
