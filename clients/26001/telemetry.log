@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-08-08
 ==================================================
+[10:40:26] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [10:31:28] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [10:27:38] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
@@ -328,10 +330,4 @@ Traceback:
     File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
       raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
   RuntimeError: Error de enlace DB: connection to server at "192.168.68.250", port 5432 failed: timeout expired
-----------------------------------------
-
-==================================================
- FECHA: 2026-08-05
-==================================================
-[23:49:16] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
