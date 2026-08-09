@@ -564,12 +564,12 @@
     "revoked": false
   },
   "DB:3F:77:CC:41:19": {
-    "session_id": "253d5caf-2345-4934-a589-2fc4b3c9a5b4",
+    "session_id": "47443114-c18c-41a9-bdda-3eb66228b78e",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.106",
     "ip_publica": "45.198.56.74",
     "user": "Usuario",
-    "heartbeat": "2026-08-09T13:43:03.445343",
+    "heartbeat": "2026-08-09T15:01:15.418436",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
