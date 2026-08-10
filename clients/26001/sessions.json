@@ -586,5 +586,17 @@
     "date_tampering_detected": false,
     "violation_attempt": false,
     "revoked": false
+  },
+  "C9:BA:F1:64:7D:52": {
+    "session_id": "6f64d99a-bf4a-4b58-b9b6-f7f4f0e963d3",
+    "workstation": "uuzcategui",
+    "ip_local": "192.168.68.101",
+    "ip_publica": "45.198.56.70",
+    "user": "Usuario",
+    "heartbeat": "2026-08-10T16:25:02.350949",
+    "os_version": "Windows 11",
+    "date_tampering_detected": false,
+    "violation_attempt": false,
+    "revoked": false
   }
 }
