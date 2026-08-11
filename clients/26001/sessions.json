@@ -600,12 +600,12 @@
     "revoked": false
   },
   "C2:FA:5B:45:E0:95": {
-    "session_id": "c0c5597b-0618-4b40-9928-36e6f4b1c4ed",
+    "session_id": "c800ba17-021b-49e9-895b-cb43af76b8a1",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.105",
     "ip_publica": "45.198.56.70",
     "user": "Usuario",
-    "heartbeat": "2026-08-11T19:03:04.734302",
+    "heartbeat": "2026-08-11T19:05:14.502292",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
