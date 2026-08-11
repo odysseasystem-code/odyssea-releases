@@ -588,12 +588,12 @@
     "revoked": false
   },
   "C9:BA:F1:64:7D:52": {
-    "session_id": "7743f39f-bd3d-4b79-8d35-9a844fb740ab",
+    "session_id": "8750ee0c-9834-4132-935f-8cbed4a8969a",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.101",
     "ip_publica": "45.198.56.70",
     "user": "Usuario",
-    "heartbeat": "2026-08-10T20:39:44.703481",
+    "heartbeat": "2026-08-10T21:05:44.748366",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
