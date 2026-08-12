@@ -1,6 +1,8 @@
 ==================================================
  FECHA: 2026-08-12
 ==================================================
+[19:41:45] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
+----------------------------------------
 [19:26:08] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [19:11:59] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
@@ -550,43 +552,4 @@ Traceback:
 [10:04:56] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
 ----------------------------------------
 [09:41:50] [Código: UPD-SAME] - Versión remota 0.1.13 <= local 0.1.13, sin actualización
-----------------------------------------
-[09:40:01] [Código: ERR-DB-01] - Error de enlace DB: connection to server at "192.168.68.108", port 5432 failed: timeout expired
-
-Traceback:
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 49, in initialize
-      cls._pool = psycopg2.pool.ThreadedConnectionPool(
-                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          1, 25, # De 1 a 25 conexiones dinámicas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      ...<6 lines>...
-          options="-c statement_timeout=60000" # 60s timeout para consultas largas
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-      )
-      ^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 161, in __init__
-      AbstractConnectionPool.__init__(
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
-          self, minconn, maxconn, *args, **kwargs)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 59, in __init__
-      self._connect()
-      ~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\pool.py", line 63, in _connect
-      conn = psycopg2.connect(*self._args, **self._kwargs)
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\.venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
-      conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
-  psycopg2.OperationalError: connection to server at "192.168.68.108", port 5432 failed: timeout expired
-  
-  
-  The above exception was the direct cause of the following exception:
-  
-  Traceback (most recent call last):
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\main.py", line 358, in init_system
-      DatabaseManager.initialize()
-      ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-    File "C:\Users\USUARIO\Documents\Proyectos\Odyssea\core\core\database\connection.py", line 92, in initialize
-      raise RuntimeError(f"Error de enlace DB: {safe_err_msg}") from e
-  RuntimeError: Error de enlace DB: connection to server at "192.168.68.108", port 5432 failed: timeout expired
 ----------------------------------------
