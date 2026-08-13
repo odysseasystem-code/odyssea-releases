@@ -636,12 +636,12 @@
     "revoked": false
   },
   "9E:CD:12:2B:0A:E6": {
-    "session_id": "8a20efd7-a434-4b32-bd7a-94557038cef4",
+    "session_id": "aa07e2d3-6c22-4995-97bc-8da445bd79d4",
     "workstation": "uuzcategui",
     "ip_local": "192.168.68.104",
     "ip_publica": "45.198.56.70",
     "user": "Usuario",
-    "heartbeat": "2026-08-13T11:20:36.504225",
+    "heartbeat": "2026-08-13T11:25:20.280547",
     "os_version": "Windows 11",
     "date_tampering_detected": false,
     "violation_attempt": false,
